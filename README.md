@@ -14,6 +14,10 @@ NkGLES.hがNuklearを描画する足回りでして，本家のsdl_opengles2/nuk
 本家はSDLが使われているので，それを使わないようにしています．
 ここでは，overview.cのデモが動きます．
 
+I made the GUI library named Nuklear work on Open GL ES 2.
+NkGLES.h draws Nuklear GUI and is also made from sdl_opengles2 / nuklear_sdl_gles2.h.
+Here, demo of overview.c works.
+
 ## ??
 描画やイベント処理はEngineという構造体で管理されていました．
 これをクラス化(class Engine)しています．
