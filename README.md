@@ -1,24 +1,20 @@
 # VsAndroid
-Native Activity with VisualStudio2017.
-Overview
+このプログラムは，AndroidのNative-Activityアプリのサンプルです．
+各ディレクトリにはVSのソリューション一式が置いてあります．
+Javaは一切用いず，C++のみで書かれています．
+This program is a sample application of Android Native-Activity.
+There is a set of Visual Studio 2017 solutions in each directory.
+It does not use Java at all, it is written in C++ only.
 
 ## DrawTriangle
-Visual studio 2017で作れるAndroidアプリのサンプル．C++のみのNative activityで書かれています．
-基本的にはOpenGL ESで画面表示を行うみたいです．
-一応Visual studioのサンプルでは傾きを検知して画面色を塗り替えるのものが
-付属ていますが，図形描画はないみたいでしたので，三角形を描けるように改造してみました．
+三角形を描画します．
 
 ## NuklearTest
-NuklearというGUIライブラリをOpen GL ES 2で動くようにしました．
-NkGLES.hがNuklearを描画する足回りでして，本家のsdl_opengles2/nuklear_sdl_gles2.hをもとに作られています．
-本家はSDLが使われているので，それを使わないようにしています．
-ここでは，overview.cのデモが動きます．
-
-I made the GUI library named Nuklear work on Open GL ES 2.
-NkGLES.h draws Nuklear GUI and is also made from sdl_opengles2 / nuklear_sdl_gles2.h.
-Here, demo of overview.c works.
-
-## ??
-描画やイベント処理はEngineという構造体で管理されていました．
-これをクラス化(class Engine)しています．
-
+GUIの表示を行います．
+NuklearというGUIライブラリ移植したものです．
+NkGLES.hラッパークラスであり，sdl_opengles2/nuklear_sdl_gles2.hをもとに作られています．
+ここでは，サンプルに同梱されているoverview.cのデモを動作させます．
+Display the GUI.
+It is a ported GUI library called Nuklear.
+NkGLES.h wrapper class, which is based on sdl_opengles2/nuklear_sdl_gles2.h of nuklear sample.
+Here the demonstration of overview.c is work which is included in the sample.
