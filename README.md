@@ -12,6 +12,11 @@ It does not use Java at all, it is written in C++ only.*
   
 *Draw the triangle.*
 
+## DrawPrintf
+ビットマップフォントによるprintfを実現しています．
+  
+*Display the 'printf' by bitmapfont.*
+
 ## NuklearTest
 GUIの表示を行います．
 NuklearというGUIライブラリ移植したものです．
