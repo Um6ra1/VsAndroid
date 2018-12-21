@@ -2,12 +2,14 @@
 このプログラムは，AndroidのNative-Activityアプリのサンプルです．
 各ディレクトリにはVSのソリューション一式が置いてあります．
 Javaは一切用いず，C++のみで書かれています．
+  
 This program is a sample application of Android Native-Activity.
 There is a set of Visual Studio 2017 solutions in each directory.
 It does not use Java at all, it is written in C++ only.
 
 ## DrawTriangle
-三角形を描画します．
+三角形を描画します．  
+Draw the triangle.
 
 ## NuklearTest
 GUIの表示を行います．
